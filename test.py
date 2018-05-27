@@ -35,9 +35,9 @@ def testcheck():
 	g1 = 5
 	g2 = 40
 	g3 = 30	
-	assert check(5,30) == False
-	assert check(40,30) == False
-	assert check(30,30) == True
+	assert check(5,30) == "Too low"
+	assert check(40,30) == "Too high" 
+	assert check(30,30) == "Correct"
 	
 
 	
