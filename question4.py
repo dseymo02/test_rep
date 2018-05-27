@@ -10,6 +10,9 @@ def readAnswers(answers,size):
 	studentnumber = answers.pop(0)
 	return studentnumber, answers
 
+def score(solution, answers):
+	pass
+
 def main():
 
 	size = 6
@@ -25,7 +28,6 @@ def main():
 		if studentnumber == "999":
 			finished = True
 			print(studentnumber)
-	print(finished)
 	
 if __name__ == "__main__":
 	main()

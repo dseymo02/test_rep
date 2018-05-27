@@ -42,4 +42,10 @@ def testcheck():
 	assert check(40,30) == "Too high" 
 	assert check(30,30) == "Correct"
 
+# question 4 tests
+
+def testscore():
+	solution = "T T F T T T"
+	
+
 		
