@@ -29,7 +29,10 @@ def fibseqlimit(l):
 	
 # question 2
 def search(str,lst,size):
-	pass
+	if str in lst:
+		return 1
+	else: 
+		return -1
 	
 def main():
 	# question 1a programme
