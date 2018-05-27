@@ -20,7 +20,7 @@ def main():
 	solutions = readSolution(solutions,size)
 	print(solutions)
 	finished = False
-	whilte not finished:
+	while not finished:
 		studentnumber, answers = readAnswers(answers,size)
 		print(studentnumber, answers)
 		if studentnumber == 999:
