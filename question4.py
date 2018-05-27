@@ -35,6 +35,8 @@ def main():
 			finished = True
 			break
 		results.append((studentnumber,score(solutions,answers,size)))
-	print(results)
+	for i in results:
+		print(i[0]," ",i[1], " marks")
+
 if __name__ == "__main__":
 	main()
