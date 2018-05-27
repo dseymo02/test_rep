@@ -28,9 +28,15 @@ def fibseqlimit(l):
 	return seq
 	
 def main():
-	# question 1 main()
+	# question 1a programme
 	n = 20
 	print([i for i in fibseq(n)])
+	
+	# question 1b programme
+	l = 2000
+	print([i for i in fibseqlimit(l)])
+	
+	
 
 
 	
