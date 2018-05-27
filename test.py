@@ -46,6 +46,8 @@ def testcheck():
 
 def testscore():
 	solution = "T T F T T T"
-	
+	answers = "T T T T T T"
+	assert score(solution, answers) == 5
+
 
 		
