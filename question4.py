@@ -16,9 +16,16 @@ def main():
 	size = 6
 	solutions = []
 	answers = []
+	terminate = 999
 	solutions = readSolution(solutions,size)
-	studentnumber, answers = readAnswers(answers,size)
-	print(studentnumber, answers)
+	print(solutions)
+	finished = False
+	whilte not finished:
+		studentnumber, answers = readAnswers(answers,size)
+		print(studentnumber, answers)
+		if studentnumber == 999:
+			finished = True
+			print(studentnumber)
 	
 if __name__ == "__main__":
 	main()

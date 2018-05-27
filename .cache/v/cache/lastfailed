@@ -1,3 +1,4 @@
 {
+  "test.py": true,
   "test.py::testNumberGuesses": true
 }
