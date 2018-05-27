@@ -1,4 +1,7 @@
-from main import *
+from question1 import *
+from question2 import *
+from question3 import *
+from question4 import *
 import pytest
 
 # question 1a tests
@@ -39,13 +42,4 @@ def testcheck():
 	assert check(40,30) == "Too high" 
 	assert check(30,30) == "Correct"
 
-def testNumberGuesses():
-	ng = 0
-	number = 0
-	for i in range(0,5):
-		number = numberGuesses(ng)
-	assert number == 5
-
-	
-
-	
+		
