@@ -12,7 +12,7 @@ def readAnswers(answers,size):
 
 def score(solutions, answers, size):
 	score = 0
-	for i in range(size):
+	for i in range(0,size):
 		if answers[i] == solutions[i]:
 			score += 1
 		elif answers[i] != solutions[i]:
@@ -33,7 +33,8 @@ def main():
 		studentnumber, answers = readAnswers(answers,size)
 		if studentnumber == "999":
 			finished = True
+			break
 		results.append((studentnumber,score(solutions,answers,size)))
-	print(results[0]," ",results[1]," ", "marks")
+	print(results)
 if __name__ == "__main__":
 	main()
