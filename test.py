@@ -28,3 +28,16 @@ def testsearch():
 	assert search(s,l,size) == 3
 	assert search(s1,l,size) == -1
 	
+# question 2 tests
+
+def testcheck():
+	n = 30
+	g1 = 5
+	g2 = 40
+	g3 = 30	
+	assert check(5,30) == False
+	assert check(40,30) == False
+	assert check(30,30) == True
+	
+
+	
