@@ -26,5 +26,5 @@ def testsearch():
 	l = ["do","it","now","hello","aim","fire"]
 	size = len(l)
 	assert search(s,l,size) == 3
-	assert search(s,l,size) == -1
+	assert search(s1,l,size) == -1
 	
