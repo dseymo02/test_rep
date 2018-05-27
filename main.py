@@ -1,4 +1,6 @@
 def fib(n):
-	if n in (0,1):
+	''' function to print out fib sequence '''
+	if n in [1,0]:
 		return 1
-	return fib(n-1) + fib(n-2)
+	else:
+		return fib(n-1) + fib(n-2)
