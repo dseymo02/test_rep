@@ -34,10 +34,18 @@ def testcheck():
 	n = 30
 	g1 = 5
 	g2 = 40
-	g3 = 30	
+	g3 = 30
 	assert check(5,30) == "Too low"
 	assert check(40,30) == "Too high" 
 	assert check(30,30) == "Correct"
+
+def testNumberGuesses():
+	ng = 0
+	number = 0
+	for i in range(0,5):
+		number = numberGuesses(ng)
+	assert number == 5
+
 	
 
 	
