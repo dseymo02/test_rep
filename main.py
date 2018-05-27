@@ -30,7 +30,7 @@ def fibseqlimit(l):
 # question 2
 def search(str,lst,size):
 	if str in lst:
-		return 1
+		return lst.index(str)
 	else: 
 		return -1
 	
