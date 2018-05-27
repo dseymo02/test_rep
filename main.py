@@ -33,7 +33,12 @@ def search(str,lst,size):
 		return lst.index(str)
 	else: 
 		return -1
-	
+
+#question 3 
+
+def check(g,n):
+	pass
+		
 def main():
 	# question 1a programme
 	n = 20
@@ -42,10 +47,6 @@ def main():
 	# question 1b programme
 	l = 2000
 	print([i for i in fibseqlimit(l)])
-	
-	
-
-
 	
 if __name__ == "__main__":
 	main()
