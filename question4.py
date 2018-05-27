@@ -10,24 +10,30 @@ def readAnswers(answers,size):
 	studentnumber = answers.pop(0)
 	return studentnumber, answers
 
-def score(solution, answers):
-	pass
+def score(solutions, answers, size):
+	score = 0
+	for i in range(size):
+		if answers[i] == solutions[i]:
+			score += 1
+		elif answers[i] != solutions[i]:
+			score -= 1
+	return score
+
 
 def main():
 
 	size = 6
 	solutions = []
 	answers = []
+	results = []
 	terminate = 999
 	solutions = readSolution(solutions,size)
-	print(solutions)
 	finished = False
 	while not finished:
 		studentnumber, answers = readAnswers(answers,size)
-		print(studentnumber, answers)
 		if studentnumber == "999":
 			finished = True
-			print(studentnumber)
-	
+		results.append((studentnumber,score(solutions,answers,size)))
+	print(results[0]," ",results[1]," ", "marks")
 if __name__ == "__main__":
 	main()

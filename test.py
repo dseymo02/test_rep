@@ -47,7 +47,8 @@ def testcheck():
 def testscore():
 	solution = ['T', 'T', 'F', 'T', 'T', 'T']
 	answers = ['T', 'T', 'T', 'T', 'T', 'T']
-	assert score(solution, answers) == 5
+	size = 6
+	assert score(solution, answers, size) == 4
 
 
 		

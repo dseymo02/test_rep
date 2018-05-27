@@ -1,5 +1,4 @@
 {
   "test.py::testNumberGuesses": true,
-  "test.py::testreadSolution": true,
-  "test.py::testscore": true
+  "test.py::testreadSolution": true
 }
