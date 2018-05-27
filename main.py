@@ -1,3 +1,4 @@
+# question 1a
 def fib(n):
 	''' function to print out fib numbers'''
 	if n in [1,0]:
@@ -10,10 +11,19 @@ def fibseq(n):
 	for i in range(0,n+1):
 		seq.append(fib(i))
 	return seq
+
+# question 1b
+	
+def fibseqlimit(l):
+	pass
 	
 def main():
+	# question 1 main()
 	n = 20
 	print([i for i in fibseq(n)])
+
+
 	
 if __name__ == "__main__":
 	main()
+
