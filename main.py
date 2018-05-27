@@ -15,7 +15,17 @@ def fibseq(n):
 # question 1b
 	
 def fibseqlimit(l):
-	pass
+	finished = False
+	seq = []
+	n = 0
+	while not finished:
+		fibn = fib(n)
+		n += 1
+		if fibn < l:
+			seq.append(fibn)
+		else:
+			finished = True
+	return seq
 	
 def main():
 	# question 1 main()
