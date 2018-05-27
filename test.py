@@ -45,8 +45,8 @@ def testcheck():
 # question 4 tests
 
 def testscore():
-	solution = "T T F T T T"
-	answers = "T T T T T T"
+	solution = ['T', 'T', 'F', 'T', 'T', 'T']
+	answers = ['T', 'T', 'T', 'T', 'T', 'T']
 	assert score(solution, answers) == 5
 
 
