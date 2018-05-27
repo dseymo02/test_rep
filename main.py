@@ -37,7 +37,12 @@ def search(str,lst,size):
 #question 3 
 
 def check(g,n):
-	pass
+	if g < n:
+		return "Too low"
+	elif g > n:
+		return "Too high"
+	else:
+		return "Correct"
 		
 def main():
 	# question 1a programme
