@@ -20,7 +20,7 @@ def testfibseqlimit():
 	assert fibseqlimit(l) == [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,233, 377, 610, 987, 1597]
 
 # question 2 tests
-def search(str, lst,size):
+def testsearch():
 	s = "hello"
 	s1 = "let"
 	l = ["do","it","now","hello","aim","fire"]

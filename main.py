@@ -27,6 +27,10 @@ def fibseqlimit(l):
 			finished = True
 	return seq
 	
+# question 2
+def search(str,lst,size):
+	pass
+	
 def main():
 	# question 1a programme
 	n = 20
